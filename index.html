@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Hi^_^</title>
+     <style>
+        body{
+            margin: 0;
+            font-family:  'Quicksand', sans-serif;
+            color: black;
+            text-align: center;
+            padding-bottom: 100px;
+            min-height: 65vh;
+            box-sizing: border-box;
+            background-image: url('gambar/awan.jpg');
+            background-size: cover;
+        }
+        body > * {
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 36px;
+            margin-top: 120px; /* Geser h1 turun 50px dari atas */
+            margin-bottom: 20px;
+            color: #1b4965;
+            animation: fadeInDown 1.1s ease;
+        }
+         p {
+            font-family:  'Courgette', cursive;
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #437696;
+        }
+        .playbutton {
+            max-width: 120px;
+            margin: 20px auto;
+            padding: 12px 20px;
+            background-color: #1b4965;
+            border-radius: 8px;
+            box-sizing: border-box;
+            color: white; /* Warna teks putih agar kontras */
+            font-weight: 600;
+            font-family: 'Quicksand', sans-serif; /* Gunakan font body yang bersih */
+            cursor: pointer; /* Cursor ikon tangan saat hover */
+            user-select: none; /* Disable teks terseleksi */
+            text-align: center;
+            transition: background-color 0.3s ease;
+            border: none; /* Hilangkan border default */
+            display: inline-block; /* Agar bisa margin auto dan padding berjalan */
+            text-decoration: none;
+        }
+        .playbutton:hover,
+        .playbutton:focus {
+            background-color: #145374;
+            box-shadow: 0 8px 24px rgba(20, 83, 116, 0.25);
+            transform: translateY(-4px) scale(1.07);
+            outline: none;
+        }
+        .playbutton:focus {
+            outline: 2px solid #f9bc60;
+            outline-offset: 3px;
+        }
+
+     </style>
+    </head>
+    <body>
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <h1>Selamat Kamu masih bertahan sampai sekarang</h1>
+        <p> Terima kasih banyak udah bisa bertahan sampai sekarang, gak apa-apa kalau belum jadi apa-apa. 
+            Tuhan tau kok kapan waktunya kamu sukses, Tuhan hanya kasih diwaktu yang benar-benar layak dan siap untuk kamu sukses. </p>
+        <!--* fungsi <a itu untuk membuat hyperlink -->
+        <a href="https://music.youtube.com/playlist?list=PLrMc_0F8_Qijnz6sShcBijug6NHmmE3nt&si=A4k-nadKjsZB0cUW" target="_blank" 
+         class="playbutton">Putar Musik</a> 
+    <script>
+            console.log("index Body")
+    </script>
+    </body>
+</html>
